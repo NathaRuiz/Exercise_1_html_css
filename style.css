@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+
+.content{
+   margin: auto;
+   width: 60%;
+   padding: 0;
+   background-color: white;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    padding: 20px;
+}
+
+.info{
+    margin: 5% 8%;
+    padding: 0 2%;
+}
+
+#html{
+    width: 130px;
+    height: 130px;
+    margin: 0 15px;
+}
+
+#css{
+    width: 120px;
+    height: 150px;
+    margin: 0 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+/*--------------RESPONSIVE------------------*/
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+    h2{
+        background-color: black;
+        color: white;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightsalmon;
+    }
+    h2{
+        background-color: rgb(224, 224, 224);
+        box-shadow: inset;
+        color: black;
+    }
+    .content{
+       background-color: grey;
+    }
+    #html{
+      width: 50%;
+      height: 50%;
+      margin: 10px;
+    }
+    #css{
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+    h2{
+        background-color:green;
+        box-shadow: inset;
+        color: white;
+    }
+    .content{
+       background-color: lightcyan;
+    }
+    #html{
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+    }
+    #css{
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+    }
+  }
+
